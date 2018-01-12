@@ -2,8 +2,7 @@
 
 /** Stef-Emoticon
  * Create By Stefanus Prasetyo Nugroho
- * v -0.1 Beta
- * 25 Emoticons
+ * v -0.1 
  */
 require_once 'expression.php';
 
@@ -79,9 +78,9 @@ class Stef_Emot
   // This is just special for laugh2 emoticon code =-)
   private function laugh2($text)
   {
-    $expression = array('=-)','*laugh2');
-    $replacement ='<img src="images/BBM-Emoticon-005.png" style="width:50px">';
-    $text = str_replace($expression,$replacement,$text);
+       global $expression;
+       global $replacement;
+       $text = str_replace($expression["laugh2"], $replacement["05"], $text);
     return $text;
   }
 
@@ -89,9 +88,9 @@ class Stef_Emot
 
   private function bighug($text)
   {
-    $expression = array('({})','*bighug*');
-    $replacement ='<img src="images/BBM-Emoticon-006.png" style="width:50px">';
-    $text = str_replace($expression,$replacement,$text);
+     global $expression;
+       global $replacement;
+       $text = str_replace($expression["bighug"], $replacement["06"], $text);
 
     return $text;
   }
@@ -99,28 +98,29 @@ class Stef_Emot
   // This is just special for dance emoticon code \=D/
   private function dance($text)
   {
-    $expression = array("\=D/","*dance*");
-    $replacement = '<img src="images/BBM-Emoticon-008.png" style="width:50px">';
-    $text = str_replace($expression, $replacement, $text);
+    global $expression;
+       global $replacement;
+       $text = str_replace($expression["dance"], $replacement["07"], $text);
 
     return $text;
   }
   // This is just special for party emoticon code <=-P and *party*
   private function party($text)
   {
-    $expression = array("<=-P","*party*");
-    $replacement = '<img src="images/BBM-Emoticon-009.png" style="width:50px">';
-    $text = str_replace($expression, $replacement, $text);
+   global $expression;
+       global $replacement;
+       $text = str_replace($expression["party"], $replacement["08"], $text);
 
     return $text;
   }
 
-  //This is just special for roftl emoticon code  =)
+  //This is just special for roftl emoticon code  =))
   private function roftl($text)
   {
-    $expression = array("=))","*roftl*");
-    $replacement = '<img src="images/BBM-Emoticon-016.png" style="width:50px;">';
-    $text =  str_replace($expression,$replacement ,$text);
+   global $expression;
+       global $replacement;
+       $text = str_replace($expression["roftl"], $replacement["09"], $text);
+
     return $text;
   
   }
