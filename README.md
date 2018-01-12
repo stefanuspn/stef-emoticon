@@ -26,4 +26,4 @@ echo $emot->emot(':)  ;) :D =-D =-) ({}) \=D/  <=-P  =))');
 
 atau 
 
-echo $emot->emot("*happy* *eyeblink* *bigsmile* *laugh1* *laugh2* *bighug* *dance* *party* *roftl*);
+echo $emot->emot("*happy* *eyeblink* *bigsmile* *laugh1* *laugh2* *bighug* *dance* *party* *roftl*");
