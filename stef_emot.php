@@ -2,8 +2,6 @@
 
 /** Stef-Emoticon
  * Create By Stefanus Prasetyo Nugroho
- * v -0.1 Beta
- * 25 Emoticons
  */
 require_once 'expression.php';
 
