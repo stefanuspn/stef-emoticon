@@ -24,6 +24,4 @@ Silahkan Letakan stef_emoticon.php di folder yang anda butuhkan  lalu memanggiln
 $emot = new Stef_Emot();
 echo $emot->emot(':)  ;) :D =-D =-) ({}) \=D/  <=-P  =))');
 
-atau 
 
-echo $emot->emot("*happy* *eyeblink* *bigsmile* *laugh1* *laugh2* *bighug* *dance* *party* *roftl*");
