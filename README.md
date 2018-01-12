@@ -29,8 +29,8 @@ echo $emot->emot(':)  ;) :D =-D =-) ({}) \=D/  <=-P  =))');
 stef_emoticon juga bisa dijadikan sebagai library framework php codeigneter
 Caranya: 
 
-1 silahkan download terlebih dahulu stef_emoticon.php
-2 taruh dalam folder application/library
+1.silahkan download terlebih dahulu stef_emoticon.php
+2.taruh dalam folder application/library
 Dan yang terakhir panggil library stef_emoticon tersebut kedalam sebuah controller
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
