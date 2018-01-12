@@ -2,7 +2,8 @@
 
 /** Stef-Emoticon
  * Create By Stefanus Prasetyo Nugroho
- * v -0.1 
+ * v -0.1 Beta
+ * 25 Emoticons
  */
 require_once 'expression.php';
 
@@ -114,7 +115,7 @@ class Stef_Emot
     return $text;
   }
 
-  //This is just special for roftl emoticon code  =))
+  //This is just special for roftl emoticon code  =)
   private function roftl($text)
   {
    global $expression;
@@ -125,6 +126,7 @@ class Stef_Emot
   
   }
 }
-$emot = new Stef_Emot();
-echo $emot->emot(':)  ;) :D =-D =-) ({}) \=D/  <=-P  =))');
+
+//$emot = new Stef_Emot();
+//echo $emot->emot("*happy* *eyeblink* *bigsmile* *laugh1* *laugh2* *bighug* *dance* *party* *roftl*");
 ?>
